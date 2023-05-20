@@ -1,0 +1,128 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 26, 2023, 11:03:04 PM
+    Author     : Thắng đẹp trai
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-third{
+    width: 33.33333%;
+}
+
+.col-full{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+#main{
+
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+.clear-float{
+    clear: both;
+}
+/*Login-form*/
+
+.modal{
+    background-color: rgba(0,0,0,0.0);
+    padding: 100px 0;
+}
+
+.header-title{
+    color: var(--primary-color);
+}
+
+.login-form{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    background-color: white;
+    z-index: 1;
+    font-size: 18px;
+    border-radius: 4px;
+    border: solid 2px #ccc;
+}
+
+.header-title{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.account-input{
+    height: 40px;
+    width: 350px;
+    margin: 30px 0 0 20px;
+    font-weight: 545;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.footer{
+    border: none;
+}
+
+.submit-form{
+    float: right;
+    margin: 60px 40px 0 0;
+    height: 45px;
+    width: 110px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
